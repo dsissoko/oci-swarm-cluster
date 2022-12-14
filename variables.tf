@@ -96,7 +96,7 @@ variable "autonomous_database_cpu_core_count" {
   default = 1
 }
 variable "autonomous_database_data_storage_size_in_tbs" {
-  default = 1
+  default = 0.02
 }
 variable "autonomous_database_visibility" {
   default = "Public"

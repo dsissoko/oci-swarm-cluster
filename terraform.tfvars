@@ -10,17 +10,17 @@
 #############################################################################################################################
 
 # OCI authentication
-tenancy_ocid     = "ocid1.tenancy.oc1....."
+tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaaacjarngxeigit7hlb6qyfgy5nl4jsq254iaiasz7wst37prcvc6a"
 fingerprint      = "" # e.g.: "5f:53:..." or leave blank if using CloudShell
 user_ocid        = "" # e.g.: "ocid1.user..." or leave blank if using CloudShell
 private_key_path = "" # e.g.: "/users/user/.oci/oci_api_key.pem" or leave blank if using CloudShell
-user_email       = "myname@mydomain.tld"
+user_email       = "dsissoko@gmail.com"
 
 # Deployment compartment
-compartment_ocid = "ocid1.tenancy.oc1....."
+compartment_ocid = "ocid1.tenancy.oc1..aaaaaaaaacjarngxeigit7hlb6qyfgy5nl4jsq254iaiasz7wst37prcvc6a"
 
 # region
-region = "us-phoenix-1"
+region = "eu-paris-1"
 
 # Compute
 num_nodes                           = 2
